@@ -58,6 +58,6 @@ def run_raffle():
     pick_winner(customers)
 
 
-# add initializer 
+# add to make the raffle run when run as a script.  
 if __name__ == "__main__":
     run_raffle()
